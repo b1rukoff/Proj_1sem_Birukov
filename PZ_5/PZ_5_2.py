@@ -11,53 +11,9 @@ def Mean(X, Y):  # Функция просчёта среднего арифме
 
 
 A = input("Введите положительное число A: ")
-
-while type(A) != int:  # Обработка исключений
-    try:
-        A = int(A)
-    except ValueError:
-        print("Неправильный ввод!")
-        A = input("Введите положительное число A: ")
-    if type(A) == int and A <= 0:
-        print("Неправильный ввод!")
-        A = input("Введите положительное число A: ")
-
 B = input("Введите положительное число B: ")
-
-while type(B) != int:  # Обработка исключений
-    try:
-        B = int(B)
-    except ValueError:
-        print("Неправильный ввод!")
-        B = input("Введите положительное число B: ")
-    if type(B) == int and B <= 0:
-        print("Неправильный ввод!")
-        B = input("Введите положительное число B: ")
-
 C = input("Введите положительное число C: ")
-
-while type(C) != int:  # Обработка исключений
-    try:
-        C = int(C)
-    except ValueError:
-        print("Неправильный ввод!")
-        C = input("Введите положительное число C: ")
-    if type(C) == int and C <= 0:
-        print("Неправильный ввод!")
-        C = input("Введите положительное число C: ")
-
 D = input("Введите положительное число D: ")
-
-while type(D) != int:  # Обработка исключений
-    try:
-        D = int(D)
-    except ValueError:
-        print("Неправильный ввод!")
-        D = input("Введите положительное число D: ")
-    if type(D) == int and D <= 0:
-        print("Неправильный ввод!")
-        D = input("Введите положительное число D: ")
-
 
 Mean(A, B)
 Mean(A, C)
