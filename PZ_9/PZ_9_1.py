@@ -12,7 +12,7 @@ ReinaTour = {'Англия', 'Япония', 'Канада', 'ЮАР'}
 print('Туры агнтства Voyage:', ', '.join(Voyage))  # Отображение списка туров агентств
 print('Туры агнтства ReinaTour:', ', '.join(ReinaTour))
 
-print('\nТуры из Voyage, которые отсутствуют в ReinaTour:', ', '.join(Voyage - ReinaTour)) # Отображение сравнения туров
+print('\nТуры из Voyage, которые отсутствуют в ReinaTour:', ', '.join(Voyage - ReinaTour))  # Отображение сравнений
 print('Какие товары из ReinaTour, отсутствуют в Voyage:', ', '.join(ReinaTour - Voyage))
 print('Перечень одинаковых туров:', *Voyage & ReinaTour)
 print('Перечни туров равны:', Voyage == ReinaTour)
