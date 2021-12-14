@@ -9,8 +9,8 @@ Voyage = {'Мексика', 'Канада', 'Израиль', 'Италия'}
 ReinaTour = {'Англия', 'Япония', 'Канада', 'ЮАР'}
 
 
-print('Туры агнтства Voyage:', ', '.join(Voyage))  # Отображение списка туров агентств
-print('Туры агнтства ReinaTour:', ', '.join(ReinaTour))
+print('Туры агентства Voyage:', ', '.join(Voyage))  # Отображение списка туров агентств
+print('Туры агентства ReinaTour:', ', '.join(ReinaTour))
 
 print('\nТуры из Voyage, которые отсутствуют в ReinaTour:', ', '.join(Voyage - ReinaTour))  # Отображение сравнений
 print('Какие товары из ReinaTour, отсутствуют в Voyage:', ', '.join(ReinaTour - Voyage))
