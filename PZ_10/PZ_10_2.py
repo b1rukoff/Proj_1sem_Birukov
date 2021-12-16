@@ -7,9 +7,20 @@ print(f1.read())
 
 for i in open('text18-1.txt', encoding='UTF-8'):
     for j in i:
-        if j == '.' or ',' or '!' or ':' or '-' or '...':
+        if j == ',':
             z += 1
-print('\nКоличество знаков препинания: ', z, end='\n')
+        if j == '.':
+            z += 1
+        if j == '!':
+            z += 1
+        if j == ':':
+            z += 1
+        if j == '—':
+            z += 1
+        if j == '…':
+            z += 1
+
+print('\nКоличество знаков препинания: ', z)
 
 # Обратный порядок строк
 f1 = open('text18-1.txt')
