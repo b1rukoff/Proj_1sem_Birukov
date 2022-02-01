@@ -3,7 +3,7 @@
 import random
 import string
 from tkinter import *
-from tkinter.ttk import Combobox
+
 
 rand_string = 0
 
